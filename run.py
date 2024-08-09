@@ -2,7 +2,7 @@ import pandas as pd
 import qrcode
 
 # Load your data
-data = pd.read_csv('path_to_your_file.csv')
+data = pd.read_csv('contacts.csv')
 
 # Function to create a detailed vCard string
 def create_vcard(firstname, lastname, org, position, work_phone, private_phone, mobile_phone, work_fax, private_fax, email, website, street, zipcode, city, state, country):
